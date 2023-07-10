@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header id="header my-5">
+    <header id="header">
         <div class="container">
             <div id="menu__small" class="d-flex justify-content-between d-md-none py-3">
                 <h3>start bootstrap</h3>
@@ -30,7 +30,7 @@
             </div>
         </div>
     </header>
-    <main id="main">
+    <main id="main" class="my-5">
         <section id="hero" class="my-5 py-5">
             <!-- <img src="./img/avatar.svg" alt="" class=".img-fluid rounded mx-auto d-block"> -->
             <div class="container text-center">
@@ -40,7 +40,7 @@
                 <h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
             </div>
         </section>
-        <section id="portfolio my-5">
+        <section id="portfolio" class="my-5">
             <div class="container text-center">
                 <h2>PORTFOLIO</h2>
                 <div class="row d-md-flex">
@@ -65,18 +65,18 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="my-5 py-4">
+        <section id="about" class="my-5 p-5">
             <div class="container text-center">
                 <h2>ABOUT US</h2>
                 <span class="text-capitalize">---- &star; ----</span>
                 <div class="row d-md-flex text-left">
-                    <div class="mt-sm-3 col-md-6">
+                    <div class="mt-sm-3 col-md-6 px-5">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, maiores
                         accusantium? Architecto laudantium cumque asperiores voluptatum, voluptates dolorem dolore?
                         Asperiores explicabo, doloremque similique necessitatibus voluptas sunt dolorum iste repellat
                         consectetur.
                     </div>
-                    <div class="mt-sm-3 col-md-6">
+                    <div class="mt-sm-3 col-md-6 px-5">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, maiores
                         accusantium? Architecto laudantium cumque asperiores voluptatum, voluptates dolorem dolore?
                         Asperiores explicabo, doloremque similique necessitatibus voluptas sunt dolorum iste repellat
@@ -85,11 +85,11 @@
                 </div>
             </div>
         </section>
-        <section id="contact my-5">
+        <section id="contact" class="my-5 p-5">
             <div class="container text-center">
                 <h2 class="text-capitalize">contact me</h2>
                 <span class="text-capitalize">---- &star; ----</span>
-                <!-- <form id="survey-form">
+                <form id="survey-form d-flex flex-wrap">
                     <label id="name-label">Nome
                         <input type="text" id="name" placeholder="Name" required></input>
                         <label id="email-label">Email
@@ -101,10 +101,28 @@
                             </label>
                         </label>
                     </label>
-                </form> -->
+                </form>
             </div>
         </section>
     </main>
+    <footer id="footer" class="mt-5">
+        <div class="footer__top p-5">
+            <div class="row d-flex flex-sm-wrap justify-content-between align-items-center p-5 text-center">
+                <div class="col-sm-12 col-md-4 my-sm-3 borderede">
+                    <div>LOCATION</div>
+                </div>
+                <div class="col-sm-12 col-md-4 my-sm-3 borderede">
+                    <div>AROUND THE WEB</div>
+                </div>
+                <div class="col-sm-12 col-md-4 my-sm-3 borderede">
+                    <div>ABOUT FREELANCER</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom p-5 text-center">
+            <span>copyright your website</span>
+        </div>
+    </footer>
 </body>
 
 </html>
