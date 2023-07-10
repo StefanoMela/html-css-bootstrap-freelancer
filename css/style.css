@@ -1,11 +1,31 @@
+/* #29BC9C
+#3A546D
+ */
+
+ .box {
+
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    margin: 0 auto;
+ }
 
 
-#menu__md__lg>ul {
+#header {
 
-    list-style-type: none;
+    background-color: #2C3E50;
+    color: white;
 }
 
-.menu__links {
+button {
 
-    display: inline-block;
+    background-color: transparent;
+    color: white;
+}
+
+
+.hero {
+
+    background-color: #29BC9C;
+    color: white;
 }
