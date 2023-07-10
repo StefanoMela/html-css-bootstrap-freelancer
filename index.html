@@ -89,18 +89,27 @@
             <div class="container text-center">
                 <h2 class="text-capitalize">contact me</h2>
                 <span class="text-capitalize">---- &star; ----</span>
-                <form id="survey-form d-flex flex-wrap">
-                    <label id="name-label">Nome
-                        <input type="text" id="name" placeholder="Name" required></input>
-                        <label id="email-label">Email
-                            <input type="email" id="email" placeholder="Email" required></input>
-                            <label id="number-label">Input
-                                <input id="number" type="number" min="0" max="120" placeholder="Input"></input>
-                                <textarea placeholder="Messaggi?"></textarea>
-                                <button id="submit" type="submit">Submit</button>
-                            </label>
-                        </label>
-                    </label>
+                <form class="text-left">
+                    <div class="mb-3">
+                        <label for="exampleInputName1" class="form-label">Name</label>
+                        <input type="name" class="form-control" placeholder="Your name here.." id="exampleInputName1"
+                            aria-describedby="namelHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Your email here.."
+                            id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputNumber1" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" placeholder="Your number here.."
+                            id="exampleInputNumber1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputText1" class="form-label">Messages</label>
+                        <input type="text" class="form-text" placeholder="Your message here.." id="exampleInputText1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </section>
