@@ -37,6 +37,7 @@
     margin-bottom: 2rem;
 }
 
+
 .footer__top {
 
     background-color: #3A546D;
@@ -48,3 +49,10 @@
     background-color: #2C3E50;
     color: white;
 }
+
+.fa-star {
+
+    color: currentColor;
+    margin-top: 1rem;
+}
+
