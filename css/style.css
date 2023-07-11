@@ -1,33 +1,19 @@
-/* #29BC9C
-#3A546D
- */
-
- .box {
-
-    height: 200px;
-    width: 200px;
-    border: 1px solid red;
-    margin: 0 auto;
- }
-
-
 #header {
 
-    background-color: #2C3E50;
-    color: white;
+    background-color: #3A546D;
+
 }
 
-button {
-
-    background-color: transparent;
-    color: white;
-}
-
-
-.hero {
+#hero {
 
     background-color: #29BC9C;
     color: white;
+}
+
+
+#portfolio img {
+
+    border-radius: 20px;
 }
 
 #about {
@@ -36,6 +22,20 @@ button {
     color: white;
 }
 
+.about__button {
+
+    color: invert;
+}
+
+.about__button>i {
+
+    padding-right: .5rem;
+}
+
+#footer h3 {
+
+    margin-bottom: 2rem;
+}
 
 .footer__top {
 
@@ -48,4 +48,3 @@ button {
     background-color: #2C3E50;
     color: white;
 }
-
