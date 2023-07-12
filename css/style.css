@@ -53,6 +53,14 @@
 .fa-star {
 
     color: currentColor;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
-
+/* 
+.fa-star::before {
+    display: inline-block;
+    border-top: .3rem solid currentColor;
+    width: 4rem;
+    margin: 0 1rem;
+    border-radius: 20px;
+    transform: translateY(-1rem);
+} */
